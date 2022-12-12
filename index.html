@@ -1,12 +1,244 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <h1>Hello World</h1>
-</body>
+<html>
+  <head>
+    <title>Eugene O'Fallon</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+    <meta name="image" property="og:image" content="images/profile.jpg" />
+    <meta property="og:title" content="Isaak Krautwurst" />
+    <meta
+      property="og:description"
+      content="Isaak Krautwurst, Software Engineer"
+    />
+  </head>
+  <body class="is-preload">
+    <section id="header">
+      <div class="inner">
+        <div>
+          <img
+            id="profile"
+            src="./images/headshot circle.png"
+            alt="Portrait of Isaak Krautwurst"
+          />
+          <h1>Eugene O'Fallon</h1>
+          <nav id="nav">
+            <ul class="icons">
+              <li>
+                <a
+                  target="_blank"
+                  href="mailto:epofallon@gmail.com"
+                  class="icon solid alt fa-envelope"
+                  ><span class="label">Email</span></a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="assets/Isaak_Krautwurst_Resume_04-05-2022.pdf"
+                  class="icon fas fa-file-alt"
+                  ><span class="label">Resume</span></a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/eugene-ofallon/"
+                  class="icon brands fa-linkedin"
+                  ><span class="label">LinkedIn</span></a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://github.com/epofallon"
+                  class="icon brands fa-github"
+                  ><span class="label">GitHub</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="inner" id="bio">
+          <p>
+            Hello! I'm a full-stack software engineer based in Tulsa, Oklahoma.
+          </p>
+          <p>
+            I've developed with JavaScript/Node.js, Ruby, AWS, Docker,
+            PostgreSQL, and React.
+          </p>
+          <p>
+            Recently, I developed
+            <a target="_blank" class="hypha" href="https://bard-rr.com/"
+              ><strong>Bard</strong></a
+            >, an open-source session replay tool that enables the viewing and
+            analysis of user sessions.
+          </p>
+        </div>
+        <ul class="actions special">
+          <li><a href="#one" class="button scrolly">Tell Me More</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- One -->
+    <section id="one" class="hyphatext main style1 special">
+      <div class="container">
+        <!-- <a href="https://bard-rr.com/"
+          ><img
+            class="image hyphalogo"
+            src="images/Hypha_logo_color.png"
+            alt="Hypha Logo"
+        /></a>
+
+        <header>
+          <h2 class="major">
+            <a target="_blank" class="hypha" href="https://bard-rr.com/"
+              >Hypha</a
+            >
+          </h2>
+        </header> -->
+        <header class="major">
+          <h2>
+            <a target="_blank" class="hypha" href="https://bard-rr.com/"
+              ><img src="images/bard-logo.png" alt="Bard" class="bard-logo"
+            /></a>
+          </h2>
+        </header>
+
+        <div class="row aln-center">
+          <div class="col-9 col-12-medium">
+            <p>
+              <!-- <a target="_blank" class="hypha" href="https://bard-rr.com/"></a> -->
+              Bard is an open-source session replay tool. It abstracts away the
+              complexity of recording, analyzing, and replaying user session
+              data, helping answer the question, "How do users experience a web
+              application?"
+            </p>
+          </div>
+          <div class="col-8 col-12-medium">
+            <a
+              target="_blank"
+              href="https://bard-rr.com/"
+              class="button primary"
+              >Learn More</a
+            >
+            <br />
+            <br />
+            <span class="image fit"
+              ><a target="_blank" class="hypha" href="https://bard-rr.com/">
+                <video autoplay loop muted playsinline class="video">
+                  <source
+                    src="images/MP4s/whole system data flow.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the HTML5 Video element.
+                </video>
+              </a></span
+            >
+          </div>
+          <div class="col-9 col-12-medium">
+            <p>
+              Bard puts user sessions in the context of a conversion funnel,
+              making issues with front-end applications visible, and enabling
+              developers to make informed improvements to an application.
+            </p>
+          </div>
+          <div class="col-7 col-12-medium">
+            <span class="image fit"
+              ><a target="_blank" class="hypha" href="https://bard-rr.com/">
+                <video autoplay loop muted playsinline class="video">
+                  <source src="images/MP4s/View Funnel.mp4" type="video/mp4" />
+                  Your browser does not support the HTML5 Video element.
+                </video>
+              </a></span
+            >
+          </div>
+          <div class="col-12 col-12-medium aln-center">
+            <a
+              target="_blank"
+              href="https://bard-rr.com/#section-1"
+              class="button primary"
+              >Read the Case Study</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+      <h1>Get In Touch</h1>
+      <ul class="icons">
+        <li>
+          <a
+            target="_blank"
+            href="mailto:epofallon@gmail.com"
+            class="icon solid alt fa-envelope"
+            ><span class="label">Email</span></a
+          >
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="assets/Isaak_Krautwurst_Resume_04-05-2022.pdf"
+            class="icon fas fa-file-alt"
+            ><span class="label">Resume</span></a
+          >
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/eugene-ofallon/"
+            class="icon brands fa-linkedin"
+            ><span class="label">LinkedIn</span></a
+          >
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://github.com/epofallon"
+            class="icon brands fa-github"
+            ><span class="label">GitHub</span></a
+          >
+        </li>
+      </ul>
+      <ul class="copyright">
+        <li>&copy; Eugene O'Fallon</li>
+      </ul>
+    </section>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
