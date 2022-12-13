@@ -2625,7 +2625,7 @@ ul.actions.fit.stacked {
     -ms-flex-direction: column;
     flex-direction: column;
     margin-left: 0;
-    width: 100% !important;
+    width: 90% !important;
   }
 
   ul.actions:not(.fixed) li {
@@ -3579,7 +3579,7 @@ body.is-preload #header:after {
   }
 
   #header .actions {
-    margin: 2em 0 0 0;
+    margin: 2em 0 0 5%;
   }
 
   /* Footer */
