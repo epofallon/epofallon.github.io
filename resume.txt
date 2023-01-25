@@ -1,0 +1,26 @@
+ Profile
+Eugene O'Fallon
+Software Engineer
+epofallon.com epofallon@gmail.com Tulsa, OK
+ I'm a full-stack software engineer based in Tulsa, Oklahoma. I've developed with JavaScript/Node.js, Ruby, AWS, Docker, PostgreSQL, and React. Recently, I developed Bard , an open-source session replay tool that enables the viewing and analysis of user sessions.
+Technical Experience
+Creator, Software Engineer, Bard Aug 2022 – Dec 2022 Bard is an open-source session replay and conversion analysis tool: https://bard-rr.com
+•Engineered data ingestion and retrieval system optimized for high write volume and complex analytical queries over large datasets using RabbitMQ, Clickhouse, Express, and PostgreSQL •Augmented existing open-source recording engine (rrweb) with session management functionality and published it as an npm package for easy instrumentation
+•Developed Bard's UI using React and Material UI enabling the visual analysis of user sessions in the context of conversion funnels
+•Automated two containerized deployment options: Docker Compose and AWS (ECS, Fargate and EFS) •Collaborated with a remote team of 4 engineers, including daily stand-ups and pair programming •Authored a comprehensive technical case study detailing the problem domain, design decisions, and implementation challenges encountered while building Bard
+Software Engineer, Open Source Projects 2020 – 2022 •RequestBin: A real-time Node.js application built with Express, MongoDB, PostgreSQL, web sockets, and Nginx to collect and monitor webhook requests
+•Shopping Cart: A database-backed e-commerce app built with React, MongoDB, and Node.js
+•Todo App: A Ruby todo list application built with Sinatra, ERB, HTML and JavaScript Skills
+  Backend
+Node.js, Ruby, Go, Postgres, MongoDB, Clickhouse, RabbitMQ
+Frontend
+JavaScript, React, HTML, CSS, Handlebars.js
+Tooling
+Docker, AWS (ECS, Fargate, EFS) DigitalOcean (droplet)
+Education
+Full-Stack Software Engineering, Launch School
+ 2020 – 2022 Attended a mastery-based education program focused on software engineering fundamentals
+BS in Mechanical Engineering, University of Oklahoma 2015 – 2019 Professional Experience
+Manufacturing Engineer, Arcosa Wind Towers May 2019 – Mar 2022 | Tulsa, OK •Reduced tooling costs by 50K by rebuilding and automating the design process and eliminating opportunities for human error
+•Improved the building of wind towers by studying, designing, and documenting manufacturing processes
+ 
